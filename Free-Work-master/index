@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Практика</title>
+	</head>
+	<body>
+		<h1>HTML АКАДЕМИЯ. КУРС.</h1>
+			<h3>Ключевые слова</h3>
+					<ins>Пример:</ins><br>
+					<mark>
+						...&lthead&gt
+							&ltmeta name="keywords" content="слова, слова, слова..."&gt
+									&lt/head&gt
+					</mark>
+			<h3>Краткое описание страницы</h3>
+				<ins>Пример:</ins><br>
+					<mark>
+						...&lthead&gt
+							&ltmeta name="description" content="описание страницы"&gt
+							&lt/head&gt
+					</mark>
+			<h3>Комментарии в HTML</h3>
+				<mark>&lt!--Текст--&gt</mark>
+			<h3>Подключение стилей через HTML</h3>
+				<ins>Пример:</ins><br>
+					<mark>
+						&lthead&gt
+							&ltstyle&gt
+								CSS код
+							&lt/style&gt
+						&lthead&gt
+					</mark>
+				<h3>Комментарии в CSS</h3>
+					<mark>
+						/*текст*/
+					</mark>
+				<h3>Подключение внешних стилей</h3>
+					<mark>
+						&lthead&gt
+							&ltlink href="style.css" rel="stylesheet"&gt
+						&lt/head&gt
+					</mark><br>
+					<strong>Атрибут <em>stylesheet</em> говорит браузеру, что мы подключаем стили.</strong>
+	</body>
+</html>
