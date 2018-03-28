@@ -14,7 +14,7 @@
 		</style>
 	</head>
 	<body>
-		<h1><font size="12" color="#cb661e" face="a_MachinaOrtoGrSl">КУРС. </font><font size="12" color="#149abf" face="a_AlternaSw">HTML АКАДЕМИЯ.</font></h1>
+		<h1 id="start"><font size="12" color="#cb661e" face="a_MachinaOrtoGrSl">КУРС. </font><font size="12" color="#149abf" face="a_AlternaSw">HTML АКАДЕМИЯ.</font></h1>
 			<h3>Ключевые слова</h3>
 				<ins>Пример:</ins><br>
 				...&lthead&gt
@@ -96,5 +96,41 @@
     &ltblockquote&gt - выделение длинных цитат. Несколько абзацев.<br>
     &ltq&gt - выделение коротких цитат. Обрамляется в кавычки.<br>
     &ltcite&gt - для выделения источника цитаты, название произведения, автора цитаты.
+   <h3>Верхние и нижние индексы</h3>
+   	&ltsup&gt - верхний индекс.<br>
+   	&ltsub&gt - нижний индекс.
+   <h3>Пометка изменений в документе</h3>
+    &ltdel&gt - выделяет текст, который был удален в новой версии документа.<br>
+    <ins>Пример:</ins><br>
+    &ltdel&gtвредная привычка&lt/del&gt - <del>вредная привычка</del><br>
+    &gtins&gt - выделяет текст, который был добавлен в новой версии документа.<br>
+    <ins>Пример:</ins><br>
+    &ltins&gtКакой-то текст&lt/ins&gt - <ins>какой-то текст</ins><br>
+    <p><b>!АТРИБУT INS! - <em>datetime</em></b><br></p>
+    <ins>Пример:</ins><br>
+    &ltins datetime="2018-03-28"&gtкакой-то текст &lt/ins&gt
+   <h3>&ltpre&gt</h3>
+    &ltpre&gt - отображение и учитывание всех пробелов в HTML документе.
+   <h3>&ltmark&gt</h3>
+    &ltmark&gt - <mark>выделение текста с желтым фоном</mark>
+   <h3>Ссылки</h3>
+    &lta href="ссылка"&gtОтображающийся текст&lt/a&gt - <a href="ссылка">Отображающийся текст</a>
+    <h3>Относительные адреса</h3>
+    	<pre>
+      <b>./courses</b> или <b>../../couses</b>
+    	</pre>
+    <h3>Ссылка с якорем</h3>
+    	&lta href="#ссылка"&gtТекст ссылки&lt/a&gt<br>
+    	<ins>Пример:</ins><br>
+    	&lta href="#title"&gtНужно запомнить вот это&lt/a&gt<br>
+    	<strong>В пустом, нужном месте в HTML-коде вставляем таким образом:</strong><br>
+    	&lth2 id="title"&gtКакой-то текст&lt/h2&gt<br>
+    	<a href="#start">Начало страницы</a>
+    <h3>Размеры картинки в HTML</h3>
+     &ltimg src="img/___.png" <b>width="ширина" height="высота"</b>&gt
+    <h3>Альтернативный текст изображения</h3>
+    	&ltimg src="img/___.png" <b>alt="альтернативный текст</b>&gt
+    <h3>Изображение ссылка</h3>
+    	<b>&lta href="ссылка"&gt&ltimg src="img/___.png" alt="альтернативный текст&gt&lt/a&gt</b>
  </body>
 </html>
