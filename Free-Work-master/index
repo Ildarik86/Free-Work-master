@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
@@ -123,16 +123,6 @@
     <h3>Альтернативный текст изображения</h3>
     	<div class="block">&ltimg src="img/___.png" <b>alt="альтернативный текст</b>&gt</div>
     <h3>Изображение ссылка</h3>
-    	<div class="block"><b>&lta href="ссылка"&gt&ltimg src="img/___.png" alt="альтернативный текст&gt&lt/a&gt</b>
-    	<b>&lta href="ссылка"&gt&ltimg src="img/___.png" alt="альтернативный текст&gt&lt/a&gt</b></div>
-    <h3>Таблицы</h3>
-     <div class="block"><pre>
-       &lttable border="1"&gt
-        &lttr&gt<!--строка-->
-         &lttd&gt&lt/td&gt<!--ячейка-->
-         &lttd&gt&lt/td&gt<!--ячейка-->
-        &lt/tr&gt
-      &lt/table&gt
-     </pre></div>
+    	<div class="block"><b>&lta href="ссылка"&gt&ltimg src="img/___.png" alt="альтернативный текст&gt&lt/a&gt</b></div>
  </body>
 </html>
