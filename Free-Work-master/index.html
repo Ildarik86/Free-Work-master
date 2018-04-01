@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Практика</title>
+		<style type="text/css">
+			body {
+				background: url(img/background2.jpg);
+				background-size: cover;
+			}
+			h1 {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="start"><font size="12" color="#cb661e" face="a_MachinaOrtoGrSl">КУРС. </font><font size="12" color="#149abf" face="a_AlternaSw">HTML АКАДЕМИЯ.</font></h1>
+			<h3>Ключевые слова</h3>
+				<ins>Пример:</ins><br>
+				...&lthead&gt
+				&ltmeta name="keywords" content="слова, слова, слова..."&gt
+				&lt/head&gt
+			<h3>Краткое описание страницы</h3>
+				<ins>Пример:</ins><br>
+				...&lthead&gt
+				&ltmeta name="description" content="описание страницы"&gt
+				&lt/head&gt	
+			<h3>Комментарии в HTML</h3>
+			 &lt!--Текст--&gt
+			<h3>Подключение стилей через HTML</h3>
+				<ins>Пример:</ins><br>
+				&lthead&gt
+				&ltstyle&gt
+				CSS код
+				&lt/style&gt
+			 &lthead&gt	
+				<h3>Комментарии в CSS</h3>
+						/*текст*/	
+				<h3>Подключение внешних стилей</h3>
+						&lthead&gt
+							&ltlink href="style.css" rel="stylesheet"&gt
+						&lt/head&gt
+					<br>
+					<strong>Атрибут <em>stylesheet</em> говорит браузеру, что мы подключаем стили.</strong>
+				<h3>Подключение скриптов</h3>
+				<strong>!Подключаются перед &lt/body&gt</strong><br>
+					<ins>Пример:</ins><br>
+					&ltscript&gt
+						JavaScript-код
+					&lt/script&gt
+				<h3>Подключение внешних скриптов</h3>
+					&ltscript src="script.js"&gt<b>!Тут пусто</b>&lt/script&gt
+				<h3>Неупорядоченный список</h3>
+				<ins>Пример:</ins><br>
+				<pre>
+    &ltul&gt
+     &ltli&gt&lt/li&gt
+     &ltli&gt&lt/li&gt
+    &lt/ul&gt
+				</pre>
+				<h3>Упорядоченный список</h3>
+				<pre>
+    &ltol&gt
+     &ltli&gt&lt/li&gt
+     &ltli&gt&lt/li&gt
+    &lt/ol&gt
+    </pre>
+    <strong>!Атрибут &ltol&gt - START - <em>&ltol start="3"&gt</em></strong>
+    <h3>Многоуровневый список</h3>
+    <pre>
+     &ltol&gt
+      &ltli&gt
+       &ltol&gt
+        &ltli&gt&lt/li&gt
+        &ltli&gt&lt/li&gt
+       &ltol&gt
+      &lt/li&gt
+     &lt/li&gt
+   </pre>
+   <h3>Список определений</h3>
+   <pre>
+   	&ltdl&gt
+   	 &ltdt&gtТермин<&lt/dt&gt
+   	 &ltdd&gtОпределение&lt/dd&gt
+   	 &ltdt&gtВторой Термин<&lt/dt&gt
+   	 &ltdd&gtВторое Определение&lt/dd&gt
+   	&lt/dl&gt
+   </pre>
+   <h3>Теги <em>strong</em>, <em>b</em>, <em>em</em> и <em>i</em></h3>
+   	&ltstrong&gt - ВАЖНОСТЬ;<br>
+   	&ltem&gt - ИНТОНАЦИЯ.<br>
+   <h3>Перенос и разделитель</h3>
+   &ltbr&gt - ПЕРЕНОС<br>
+   &lthr&gt - ИНТОНАЦИЯ<br>
+   <h3>Цитаты</h3>
+    &ltblockquote&gt - выделение длинных цитат. Несколько абзацев.<br>
+    &ltq&gt - выделение коротких цитат. Обрамляется в кавычки.<br>
+    &ltcite&gt - для выделения источника цитаты, название произведения, автора цитаты.
+   <h3>Верхние и нижние индексы</h3>
+   	&ltsup&gt - верхний индекс.<br>
+   	&ltsub&gt - нижний индекс.
+   <h3>Пометка изменений в документе</h3>
+    &ltdel&gt - выделяет текст, который был удален в новой версии документа.<br>
+    <ins>Пример:</ins><br>
+    &ltdel&gtвредная привычка&lt/del&gt - <del>вредная привычка</del><br>
+    &gtins&gt - выделяет текст, который был добавлен в новой версии документа.<br>
+    <ins>Пример:</ins><br>
+    &ltins&gtКакой-то текст&lt/ins&gt - <ins>какой-то текст</ins><br>
+    <p><b>!АТРИБУT INS! - <em>datetime</em></b><br></p>
+    <ins>Пример:</ins><br>
+    &ltins datetime="2018-03-28"&gtкакой-то текст &lt/ins&gt
+   <h3>&ltpre&gt</h3>
+    &ltpre&gt - отображение и учитывание всех пробелов в HTML документе.
+   <h3>&ltmark&gt</h3>
+    &ltmark&gt - <mark>выделение текста с желтым фоном</mark>
+   <h3>Ссылки</h3>
+    &lta href="ссылка"&gtОтображающийся текст&lt/a&gt - <a href="ссылка">Отображающийся текст</a>
+    <h3>Относительные адреса</h3>
+    	<pre>
+      <b>./courses</b> или <b>../../couses</b>
+    	</pre>
+    <h3>Ссылка с якорем</h3>
+    	&lta href="#ссылка"&gtТекст ссылки&lt/a&gt<br>
+    	<ins>Пример:</ins><br>
+    	&lta href="#title"&gtНужно запомнить вот это&lt/a&gt<br>
+    	<strong>В пустом, нужном месте в HTML-коде вставляем таким образом:</strong><br>
+    	&lth2 id="title"&gtКакой-то текст&lt/h2&gt<br>
+    	<a href="#start">Начало страницы</a>
+    <h3>Размеры картинки в HTML</h3>
+     &ltimg src="img/___.png" <b>width="ширина" height="высота"</b>&gt
+    <h3>Альтернативный текст изображения</h3>
+    	&ltimg src="img/___.png" <b>alt="альтернативный текст</b>&gt
+    <h3>Изображение ссылка</h3>
+    	<b>&lta href="ссылка"&gt&ltimg src="img/___.png" alt="альтернативный текст&gt&lt/a&gt</b>
+    <h3>Таблицы</h3>
+     <pre>
+       &lttable border="1"&gt
+        &lttr&gt<!--строка-->
+         &lttd&gt1&lt/td&gt<!--ячейка-->
+         &lttd&gt2&lt/td&gt<!--ячейка-->
+        &lt/tr&gt
+      &lt/table&gt
+     </pre>
+     <ins>Пример:</ins><br>
+     <table border="1">
+       <tr>
+         <td>1</td>
+         <td>2</td>
+       </tr>
+     </table>
+ </body>
+</html>

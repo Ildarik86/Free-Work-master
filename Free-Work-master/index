@@ -123,6 +123,19 @@
     <h3>Альтернативный текст изображения</h3>
     	<div class="block">&ltimg src="img/___.png" <b>alt="альтернативный текст</b>&gt</div>
     <h3>Изображение ссылка</h3>
+<<<<<<< HEAD
     	<div class="block"><b>&lta href="ссылка"&gt&ltimg src="img/___.png" alt="альтернативный текст&gt&lt/a&gt</b></div>
+=======
+    	<b>&lta href="ссылка"&gt&ltimg src="img/___.png" alt="альтернативный текст&gt&lt/a&gt</b>
+    <h3>Таблицы</h3>
+     <pre>
+       &lttable border="1"&gt
+        &lttr&gt<!--строка-->
+         &lttd&gt&lt/td&gt<!--ячейка-->
+         &lttd&gt&lt/td&gt<!--ячейка-->
+        &lt/tr&gt
+      &lt/table&gt
+     </pre>
+>>>>>>> 3fd9ae8a328993970ed4ab50f7798c0fc087c5d6
  </body>
 </html>
