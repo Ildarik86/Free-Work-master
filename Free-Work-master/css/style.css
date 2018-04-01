@@ -1,0 +1,45 @@
+body {
+				background-image: url(../img/background2.jpg);
+				background-size: cover;
+				text-align: center;
+}
+h1 {
+				text-align: center;
+}
+h3 {
+				text-transform: uppercase;
+				color: #73227C;
+				font-family: Impact;
+}
+.course {
+	font-size: 55px; 
+	color: #cb661e; 
+	font-family: a_MachinaOrtoGrSl;
+}
+.course-2 {
+	font-size: 55px;
+	color: #149abf;
+	font-family: a_AlternaSw;
+}
+}
+.example {
+	text-decoration: underline;
+	color: blue;
+}
+.return {
+	text-decoration: none;
+	color: #0088CC;
+	border-bottom: 1px dashed green;
+
+}
+.return:hover {
+	border-bottom: none;
+}
+.block {
+	padding: 7px;
+border: 1px solid black;
+border-radius: 5px;
+width: 70%;
+display: inline-block;
+background-color: #E1E0E0
+}
