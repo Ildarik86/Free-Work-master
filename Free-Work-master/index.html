@@ -184,5 +184,51 @@
         }
         </pre>
     </div>
+    <h3>Отступу между ячейками</h3>
+      <div class="block">
+        <span class="exmpl">В HTML:</span><br>
+          &lttable cellspacing="значение(цифра)"&gt&lt/table&gt<br>
+        <span class="exmpl">В CSS:</span>
+          <pre>
+            table {
+            border-spacing: 5px;
+          }
+          </pre>
+      </div>
+      <h3>Ячейки-заголовки (&ltth&gt&lt/th&gt)</h3>
+      <div class="block">
+        <pre>
+         &lttable&gt
+           &lttr&gt
+           &ltth&gtTest&lt/tr&gt
+           &ltth&gtTest2&lt/tr&gt
+           &lt/tr&gt
+         &lt/table&gt
+        </pre>
+        <span class="exmpl">Результат:</span><br>
+          <table class="exmpl-2" border="2">
+            <tr>
+              <th>Test</th>
+              <th>Test2</th>
+            </tr>
+          </table>
+      </div>
+      <h3>Заголовок Таблицы</h3>
+      <div class="block">
+        &lttable&gt
+         &ltcaption&gtТекст(заголовок)&lt/caption&gt-<span class="exmpl">Сразу после тега table</span><br>
+         <b>Перемещение по вертикали:</b><br>
+          <pre>
+            caption {
+            caption-side: top или bottom;
+          }
+          </pre><br>
+         <b>Перемещение по горизонтали:</b><br>
+          <pre>
+            caption {
+            text-aligh: left или right или center;
+          }
+          </pre>
+      </div>
  </body>
 </html>
