@@ -8,24 +8,25 @@
 	<body>
 		<h1 id="start"><span class="course">КУРС</span><span class="course-2">HTML АКАДЕМИЯ.</span></h1>
 			<h3>Ключевые слова</h3>
-				<div class="block"><span class="example">Пример:</span><br>
+				<div class="block"><span class="exmpl">Пример:</span><br>
 				...&lthead&gt
 				&ltmeta name="keywords" content="слова, слова, слова..."&gt
 				&lt/head&gt</div>
 			<h3>Краткое описание страницы</h3>
-				<div class="block"><span class="example">Пример:</span><br>
+				<div class="block"><span class="exmpl">Пример:</span><br>
 				...&lthead&gt
 				&ltmeta name="description" content="описание страницы"&gt
 				&lt/head&gt</div>	
 			<h3>Комментарии в HTML</h3>
 			 <div class="block">&lt!--Текст--&gt</div>
 			<h3>Подключение стилей через HTML</h3>
-				<div class="block"><span class="example">Пример:</span><br>
+				<div class="block"><span class="exmpl">Пример:</span><br>
 				&lthead&gt
 				&ltstyle&gt
 				CSS код
 				&lt/style&gt
-			 &lthead&gt</div>	
+			 &lthead&gt
+       </div>	
 				<h3>Комментарии в CSS</h3>
 						<div class="block">/*текст*/</div>	
 				<h3>Подключение внешних стилей</h3>
@@ -36,14 +37,14 @@
 					<strong>Атрибут <em>stylesheet</em> говорит браузеру, что мы подключаем стили.</strong></div>
 				<h3>Подключение скриптов</h3>
 				<div class="block"><strong>!Подключаются перед &lt/body&gt</strong><br>
-					<span class="example">Пример:</span><br>
+					<span class="exmpl">Пример:</span><br>
 					&ltscript&gt
 						JavaScript-код
 					&lt/script&gt</div>
 				<h3>Подключение внешних скриптов</h3>
 					<div class="block">&ltscript src="script.js"&gt<b>!Тут пусто</b>&lt/script&gt</div>
 				<h3>Неупорядоченный список</h3>
-				<div class="block"><span class="example">Пример:</span><br>
+				<div class="block"><span class="exmpl">Пример:</span><br>
 				<pre>
     &ltul&gt
      &ltli&gt&lt/li&gt
@@ -93,13 +94,13 @@
    	&ltsub&gt - нижний индекс.</div>
    <h3>Пометка изменений в документе</h3>
     <div class="block">&ltdel&gt - выделяет текст, который был удален в новой версии документа.<br>
-    <span class="example">Пример:</span><br>
+    <span class="exmpl">Пример:</span><br>
     &ltdel&gtвредная привычка&lt/del&gt - <del>вредная привычка</del><br>
     &gtins&gt - выделяет текст, который был добавлен в новой версии документа.<br>
-    <span="example">Пример:</span><br>
+    <span="exmpl">Пример:</span><br>
     &ltins&gtКакой-то текст&lt/ins&gt - <ins>какой-то текст</ins><br>
     <p><b>!АТРИБУT INS! - <em>datetime</em></b><br></p>
-    <span class="example">Пример:</span><br>
+    <span class="exmpl">Пример:</span><br>
     &ltins datetime="2018-03-28"&gtкакой-то текст &lt/ins&gt</div>
    <h3>&ltpre&gt</h3>
     <div class="block">&ltpre&gt - отображение и учитывание всех пробелов в HTML документе.</div>
@@ -113,7 +114,7 @@
     	</pre></div>
     <h3>Ссылка с якорем</h3>
     	<div class="block">&lta href="#ссылка"&gtТекст ссылки&lt/a&gt<br>
-    	<span class="example">Пример:</span><br>
+    	<span class="exmpl">Пример:</span><br>
     	&lta href="#title"&gtНужно запомнить вот это&lt/a&gt<br>
     	<strong>В пустом, нужном месте в HTML-коде вставляем таким образом:</strong><br>
     	&lth2 id="title"&gtКакой-то текст&lt/h2&gt<br>
@@ -126,7 +127,8 @@
     	<div class="block"><b>&lta href="ссылка"&gt&ltimg src="img/___.png" alt="альтернативный текст&gt&lt/a&gt</b>
     	<b>&lta href="ссылка"&gt&ltimg src="img/___.png" alt="альтернативный текст&gt&lt/a&gt</b></div>
     <h3>Таблицы</h3>
-     <div class="block"><pre>
+     <div class="block">
+      <pre>
        &lttable border="1"&gt
         &lttr&gt<!--строка-->
          &lttd&gtПример&lt/td&gt<!--ячейка-->
@@ -141,5 +143,44 @@
         </tr>
       </table>
    </div>
+   <h3>Рамка с помощью CSS</h3>
+   <div class="block">
+    <span class="exmpl">Пример:</span><br>
+      <pre>
+        table {
+      border: 3px solid цвет;
+   }
+      </pre>
+   </div>
+   <h3>Улучшение отображения рамок</h3>
+   <div class="block">
+     <span class="exmpl">Пример:</span><br>
+      <pre>
+      table {
+      border-collapse: collapse;
+    }
+      </pre>
+   </div>
+   <h3>Горизонтальные и вертикальные рамки</h3>
+    <div class="block">
+      <em>Задаются с помощью:</em><br>
+
+      <ul type="square">
+        <li>border-top</li>
+        <li>border-right</li>
+        <li>border-bottom</li>
+        <li>border-left</li>
+      </ul>
+    </div>
+    <h3>Отступы внутри ячеек</h3>
+    <div class="block">
+      <span class="exmpl">Пример:</span>
+        <pre>
+          td {
+          padding: 10px;
+          padding-right: 20px;
+        }
+        </pre>
+    </div>
  </body>
 </html>

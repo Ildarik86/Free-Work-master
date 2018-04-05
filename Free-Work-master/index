@@ -124,5 +124,6 @@
     	<div class="block">&ltimg src="img/___.png" <b>alt="альтернативный текст</b>&gt</div>
     <h3>Изображение ссылка</h3>
     	<div class="block"><b>&lta href="ссылка"&gt&ltimg src="img/___.png" alt="альтернативный текст&gt&lt/a&gt</b></div>
+    	<<h3></h3>
  </body>
 </html>

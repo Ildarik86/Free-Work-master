@@ -3,7 +3,7 @@ body {
 				background-size: cover;
 				text-align: center;
 }
-h1 {
+h1, ul {
 				text-align: center;
 }
 h3 {
@@ -21,8 +21,7 @@ h3 {
 	color: #149abf;
 	font-family: a_AlternaSw;
 }
-}
-.example {
+.exmpl {
 	text-decoration: underline;
 	color: blue;
 }
@@ -46,3 +45,6 @@ background-color: #E1E0E0
 table{
    margin: 0 auto;
 }
+ul {
+   display: inline-block;
+   }
